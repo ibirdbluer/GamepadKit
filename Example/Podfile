@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GamepadKit_Example' do
+  pod 'GamepadKit', :path => '../'
+
+  target 'GamepadKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
