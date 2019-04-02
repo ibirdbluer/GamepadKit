@@ -1,0 +1,22 @@
+{
+  "name": "GamepadKit",
+  "version": "0.1.0",
+  "summary": "A short description of GamepadKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ibirdbluer/GamepadKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ibirdbluer": "gregory.qian@youcanrobot.com"
+  },
+  "source": {
+    "git": "https://github.com/ibirdbluer/GamepadKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GamepadKit/Classes/**/*"
+}

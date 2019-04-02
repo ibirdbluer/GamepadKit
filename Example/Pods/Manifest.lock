@@ -1,0 +1,16 @@
+PODS:
+  - GamepadKit (0.1.0)
+
+DEPENDENCIES:
+  - GamepadKit (from `../`)
+
+EXTERNAL SOURCES:
+  GamepadKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GamepadKit: 0e9e3de4e92e13edbf4723a311bd4ca06bbdf32f
+
+PODFILE CHECKSUM: 2f3f17823300b8adb50d0bce7d3694136512ebcd
+
+COCOAPODS: 1.5.3

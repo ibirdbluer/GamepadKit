@@ -1,0 +1,6 @@
+framework module GamepadKit {
+  umbrella header "GamepadKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

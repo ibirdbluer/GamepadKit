@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0A96AC28F34DE232686EED /* GamepadKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GamepadKit.podspec; path = ../GamepadKit.podspec; sourceTree = "<group>"; };
+		1D0A96AC28F34DE232686EED /* GamepadKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GamepadKit.podspec; path = ../GamepadKit.podspec; sourceTree = "<group>"; };
 		2C33DD4EF77C9C595403A5DA /* Pods-GamepadKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamepadKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamepadKit_Example/Pods-GamepadKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35B8389DEDC487E4F6F5B233 /* Pods_GamepadKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamepadKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD8BBCA9048F9421EB0CBF4 /* Pods-GamepadKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamepadKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamepadKit_Tests/Pods-GamepadKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		709613406795E080FCE92FF4 /* Pods-GamepadKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamepadKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamepadKit_Tests/Pods-GamepadKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		930BA568B7B7E112E379EAA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AFD612C51B843DA5B1910C2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		930BA568B7B7E112E379EAA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFD612C51B843DA5B1910C2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB38609FAC555E2D22AB7D4E /* Pods-GamepadKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamepadKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamepadKit_Example/Pods-GamepadKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YVF9H2RDX9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YVF9H2RDX9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -481,10 +483,11 @@
 			baseConfigurationReference = CB38609FAC555E2D22AB7D4E /* Pods-GamepadKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVF9H2RDX9;
 				INFOPLIST_FILE = GamepadKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "gregory.cocoapods.demo.GamepadKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -496,10 +499,11 @@
 			baseConfigurationReference = 2C33DD4EF77C9C595403A5DA /* Pods-GamepadKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YVF9H2RDX9;
 				INFOPLIST_FILE = GamepadKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "gregory.cocoapods.demo.GamepadKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -510,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FD8BBCA9048F9421EB0CBF4 /* Pods-GamepadKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YVF9H2RDX9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 709613406795E080FCE92FF4 /* Pods-GamepadKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YVF9H2RDX9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
