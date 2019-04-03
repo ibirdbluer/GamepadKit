@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0A96AC28F34DE232686EED /* GamepadKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GamepadKit.podspec; path = ../GamepadKit.podspec; sourceTree = "<group>"; };
+		1D0A96AC28F34DE232686EED /* GamepadKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GamepadKit.podspec; path = ../GamepadKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C33DD4EF77C9C595403A5DA /* Pods-GamepadKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamepadKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamepadKit_Example/Pods-GamepadKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35B8389DEDC487E4F6F5B233 /* Pods_GamepadKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamepadKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD8BBCA9048F9421EB0CBF4 /* Pods-GamepadKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamepadKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamepadKit_Tests/Pods-GamepadKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };

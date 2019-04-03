@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0058E79DAD9D703B34FFDA05E877363E /* TwoDirectionGamepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A26CD5CB5D90EFDF2A066D554F8E /* TwoDirectionGamepad.swift */; };
+		1384643BF8F7FDFD6B0DCBA799AFE4EC /* NormalGamepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF3E62C79FB6BC3042B3FFBBFAC605 /* NormalGamepad.swift */; };
 		21EC7A2B9EE107267CB22157CEEF0CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		3AC42A87FD58481F922D2A1B4DA689F3 /* Pods-GamepadKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBAEB939B3C8F0309541C0DA957F2C2 /* Pods-GamepadKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44B07299B0A3217EB26BFC14F32EA7FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5B3C1E7EF93F642CF44826BFAA9B2A33 /* GamepadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73B5CA1FA4D340C438FBA728936163A /* GamepadView.swift */; };
-		5EDB0BF6DD712DD12F2EEEB22B708BA2 /* GamepadKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 073FC3826B65E2A6947CF5C4F5FEA86F /* GamepadKit-dummy.m */; };
-		9F8F2DBFF96CF720D745451B1C055774 /* NormalGamepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028416475AC5E8BAEF51261614F7E41 /* NormalGamepad.swift */; };
-		C6C77D925EC2470A104D95C84F0689DC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DFBBB4BAD449F2F0F3801D507ACAD /* ReplaceMe.swift */; };
+		3AC853986274B2631028DAA888E50989 /* GamepadKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FC17EDDBF05B38CC3A1A1512816AF6 /* GamepadKit-dummy.m */; };
+		B7AC685CA3F88E4E8970791FE8B69A65 /* GamepadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7C156B22109D36D2BEACA936C971A /* GamepadView.swift */; };
+		C805E38A884EA28F4FA2E5399D80D096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		D37BBFA7DF85D2D89300260E26CC7ECA /* Pods-GamepadKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F3689B2C4E27DF9FAD0E509356DA /* Pods-GamepadKit_Tests-dummy.m */; };
 		D44FD49FC3C56EBCB99A8FB154D1C02D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D5231FB0BD2B62C0BAD91F6B7B32A211 /* GamepadKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A40BFD517F44F0D9388B5F56AFBA5F /* GamepadKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9BAC7C0D308EA2E719097FBDBC5EADD /* Pods-GamepadKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FC3E92A01CBC706E12A4CC9D5A564C /* Pods-GamepadKit_Example-dummy.m */; };
+		DCB0DE761813CFF02765A19718D09128 /* TwoDirectionGamepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D84315B6E52F972B0516378464753C2 /* TwoDirectionGamepad.swift */; };
 		E6F30DC9894618DBB17823CD6EB438E2 /* Pods-GamepadKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 626020455735DFE06A77ADD8D240F0DD /* Pods-GamepadKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F416ACB243FF9072F709CC2D4C1EAF7A /* GamepadKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C0D2F8637564CC30614EB4979B3C2B /* GamepadKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 076CFB063DACA921164842F0992013CF;
+			remoteGlobalIDString = 9D210580DFB59EA86D1B3376D3AACC8F;
 			remoteInfo = GamepadKit;
 		};
 		F9DEF6264AB9AA31FF8D26E89EC6742B /* PBXContainerItemProxy */ = {
@@ -40,43 +39,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A40BFD517F44F0D9388B5F56AFBA5F /* GamepadKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GamepadKit-umbrella.h"; sourceTree = "<group>"; };
-		073FC3826B65E2A6947CF5C4F5FEA86F /* GamepadKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GamepadKit-dummy.m"; sourceTree = "<group>"; };
 		07E4F3689B2C4E27DF9FAD0E509356DA /* Pods-GamepadKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GamepadKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0DE5CAC67C0B0904C915BB39DA826ABD /* Pods-GamepadKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamepadKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		10672B1DE1EBFD933A029B93A67ED644 /* Pods-GamepadKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GamepadKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10C0D2F8637564CC30614EB4979B3C2B /* GamepadKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GamepadKit-umbrella.h"; sourceTree = "<group>"; };
 		14FC3E92A01CBC706E12A4CC9D5A564C /* Pods-GamepadKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GamepadKit_Example-dummy.m"; sourceTree = "<group>"; };
-		1A4676AD8539DB6D12BE89C0397939EE /* GamepadKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GamepadKit.xcconfig; sourceTree = "<group>"; };
 		2237504042CFA94F0A26B6D958A3719D /* Pods-GamepadKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GamepadKit_Example.modulemap"; sourceTree = "<group>"; };
-		2E9DFBBB4BAD449F2F0F3801D507ACAD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GamepadKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		31B4C97CAC070B702D19F5934D0490BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		389E08A17FE5FF2BAF1EAF7419B17F2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		43BBC2B77B0C454746EA77153B1A956C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B30E37A33FEC2AF712DFEB6EC72540 /* Pods-GamepadKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamepadKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		48D2971A220D4190CFB557795ACDD1B2 /* Pods-GamepadKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamepadKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5774A2A57536311F2A9361DF67BE6E12 /* Pods_GamepadKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamepadKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FF3E62C79FB6BC3042B3FFBBFAC605 /* NormalGamepad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalGamepad.swift; path = GamepadKit/Classes/NormalGamepad.swift; sourceTree = "<group>"; };
+		4BD7C156B22109D36D2BEACA936C971A /* GamepadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamepadView.swift; path = GamepadKit/Classes/GamepadView.swift; sourceTree = "<group>"; };
+		54FC17EDDBF05B38CC3A1A1512816AF6 /* GamepadKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GamepadKit-dummy.m"; sourceTree = "<group>"; };
+		55B4B2619238F3BE5EA061242E3AF8B0 /* GamepadKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GamepadKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5774A2A57536311F2A9361DF67BE6E12 /* Pods_GamepadKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GamepadKit_Example.framework; path = "Pods-GamepadKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBAEB939B3C8F0309541C0DA957F2C2 /* Pods-GamepadKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GamepadKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6056F013FBABADC769062DB26BB1535F /* GamepadKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GamepadKit.modulemap; sourceTree = "<group>"; };
 		61FFA24179ACD249F161C239EAE37E6D /* Pods-GamepadKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamepadKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		626020455735DFE06A77ADD8D240F0DD /* Pods-GamepadKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GamepadKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		64616F55F8FBE90312AC80B772B13659 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D71BC3DB0E75478981BC78D5CFA0B1 /* Pods-GamepadKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GamepadKit_Tests.modulemap"; sourceTree = "<group>"; };
 		8888517876051D38F75210F7E5AC7871 /* Pods-GamepadKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamepadKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		950F3310280203AEBD1B85C14A20DAD7 /* GamepadKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GamepadKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C781DB83C5ACE498B870F72FA36158E /* GamepadKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GamepadKit-prefix.pch"; sourceTree = "<group>"; };
+		8D84315B6E52F972B0516378464753C2 /* TwoDirectionGamepad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwoDirectionGamepad.swift; path = GamepadKit/Classes/TwoDirectionGamepad.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950F3310280203AEBD1B85C14A20DAD7 /* GamepadKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GamepadKit.framework; path = GamepadKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9997D39064595D12001757A5B90DC827 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF2F7232D54D94DCE0CB89662674F6E /* GamepadKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GamepadKit.xcconfig; sourceTree = "<group>"; };
 		A5503727956417BC6C4220BC0DA01B8B /* Pods-GamepadKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GamepadKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A7A2D693DD5105FA96EEB736C35EA23B /* GamepadKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GamepadKit.modulemap; sourceTree = "<group>"; };
 		B54B6EE988C2BC70709DA33B246B301A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF590B1621A5E109C2EDDCBEA57B20C9 /* GamepadKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GamepadKit-prefix.pch"; sourceTree = "<group>"; };
 		C2930A12AC97D2AC567432CA655A1140 /* Pods-GamepadKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamepadKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		CD96A26CD5CB5D90EFDF2A066D554F8E /* TwoDirectionGamepad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwoDirectionGamepad.swift; path = GamepadKit/Classes/TwoDirectionGamepad.swift; sourceTree = "<group>"; };
-		D131C7C1AB1439A8E075B146FB8B7282 /* Pods_GamepadKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamepadKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6B9566EE7DC90069E2D300F62D5452 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D131C7C1AB1439A8E075B146FB8B7282 /* Pods_GamepadKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GamepadKit_Tests.framework; path = "Pods-GamepadKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D73B5CA1FA4D340C438FBA728936163A /* GamepadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamepadView.swift; path = GamepadKit/Classes/GamepadView.swift; sourceTree = "<group>"; };
 		D8F70B7163A131EB880DD7070AB1A2B7 /* Pods-GamepadKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GamepadKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCFC90F9336CC885166395D06DA227D8 /* Pods-GamepadKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GamepadKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFE7BD4C2394C53EEE25CB94B5E26007 /* Pods-GamepadKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamepadKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E028416475AC5E8BAEF51261614F7E41 /* NormalGamepad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalGamepad.swift; path = GamepadKit/Classes/NormalGamepad.swift; sourceTree = "<group>"; };
-		EBD9CA9F4AE581E91F70882633D32B9F /* GamepadKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GamepadKit.podspec; sourceTree = "<group>"; };
+		F017F9844223F3A84BBD717E08845169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F2313D9A6A744E39DA2D8271E519C38A /* Pods-GamepadKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GamepadKit_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,11 +87,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEC6B12604CF89D6C5B08A3CF7675502 /* Frameworks */ = {
+		9F9474FCE74CA4F9045F370736A1A23C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B07299B0A3217EB26BFC14F32EA7FC /* Foundation.framework in Frameworks */,
+				C805E38A884EA28F4FA2E5399D80D096 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +106,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189E88B3337B5B384B7CDCD80B4652F1 /* GamepadKit */ = {
+			isa = PBXGroup;
+			children = (
+				4BD7C156B22109D36D2BEACA936C971A /* GamepadView.swift */,
+				48FF3E62C79FB6BC3042B3FFBBFAC605 /* NormalGamepad.swift */,
+				8D84315B6E52F972B0516378464753C2 /* TwoDirectionGamepad.swift */,
+				E73E38D578CD6B4BA583F999CDCCFE50 /* Pod */,
+				2E40373DEDDC290D92E8CD50A62B8E2C /* Support Files */,
+			);
+			name = GamepadKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E40373DEDDC290D92E8CD50A62B8E2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6056F013FBABADC769062DB26BB1535F /* GamepadKit.modulemap */,
+				9CF2F7232D54D94DCE0CB89662674F6E /* GamepadKit.xcconfig */,
+				54FC17EDDBF05B38CC3A1A1512816AF6 /* GamepadKit-dummy.m */,
+				BF590B1621A5E109C2EDDCBEA57B20C9 /* GamepadKit-prefix.pch */,
+				10C0D2F8637564CC30614EB4979B3C2B /* GamepadKit-umbrella.h */,
+				9997D39064595D12001757A5B90DC827 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GamepadKit";
+			sourceTree = "<group>";
+		};
 		2F1D9ED3E84C59BA4EC9AA48087695BC /* Pods-GamepadKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,25 +168,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		70F7A3F219A134A35D41F163447293E2 /* Support Files */ = {
+		6C43F4F6745E6CA1AA4E4E982C1169DA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7A2D693DD5105FA96EEB736C35EA23B /* GamepadKit.modulemap */,
-				1A4676AD8539DB6D12BE89C0397939EE /* GamepadKit.xcconfig */,
-				073FC3826B65E2A6947CF5C4F5FEA86F /* GamepadKit-dummy.m */,
-				9C781DB83C5ACE498B870F72FA36158E /* GamepadKit-prefix.pch */,
-				00A40BFD517F44F0D9388B5F56AFBA5F /* GamepadKit-umbrella.h */,
-				43BBC2B77B0C454746EA77153B1A956C /* Info.plist */,
+				189E88B3337B5B384B7CDCD80B4652F1 /* GamepadKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GamepadKit";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D1862E4AE29C1B8D5A7A6ABD5848E9E0 /* Development Pods */,
+				6C43F4F6745E6CA1AA4E4E982C1169DA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A2C511CB017F24F5B35251DDC9DD8861 /* Products */,
 				35731B0840101E983F5DF2923FDC001C /* Targets Support Files */,
@@ -176,16 +195,6 @@
 				D131C7C1AB1439A8E075B146FB8B7282 /* Pods_GamepadKit_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A619665C06815F55A47C6B2EF56E8F42 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EBD9CA9F4AE581E91F70882633D32B9F /* GamepadKit.podspec */,
-				389E08A17FE5FF2BAF1EAF7419B17F2A /* LICENSE */,
-				31B4C97CAC070B702D19F5934D0490BE /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BB79965978FE8C8BBAF26B09FAF65229 /* Pods-GamepadKit_Example */ = {
@@ -214,26 +223,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1862E4AE29C1B8D5A7A6ABD5848E9E0 /* Development Pods */ = {
+		E73E38D578CD6B4BA583F999CDCCFE50 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EEBC3F3B4C6832E22121BB68FC0DA32B /* GamepadKit */,
+				55B4B2619238F3BE5EA061242E3AF8B0 /* GamepadKit.podspec */,
+				F017F9844223F3A84BBD717E08845169 /* LICENSE */,
+				CA6B9566EE7DC90069E2D300F62D5452 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EEBC3F3B4C6832E22121BB68FC0DA32B /* GamepadKit */ = {
-			isa = PBXGroup;
-			children = (
-				D73B5CA1FA4D340C438FBA728936163A /* GamepadView.swift */,
-				E028416475AC5E8BAEF51261614F7E41 /* NormalGamepad.swift */,
-				2E9DFBBB4BAD449F2F0F3801D507ACAD /* ReplaceMe.swift */,
-				CD96A26CD5CB5D90EFDF2A066D554F8E /* TwoDirectionGamepad.swift */,
-				A619665C06815F55A47C6B2EF56E8F42 /* Pod */,
-				70F7A3F219A134A35D41F163447293E2 /* Support Files */,
-			);
-			name = GamepadKit;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,35 +252,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1981D751BE1788EBB602D2784302C0B /* Headers */ = {
+		BBE2348B3A4838012C0B859BF4B265ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5231FB0BD2B62C0BAD91F6B7B32A211 /* GamepadKit-umbrella.h in Headers */,
+				F416ACB243FF9072F709CC2D4C1EAF7A /* GamepadKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		076CFB063DACA921164842F0992013CF /* GamepadKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3290BE0BC15875DD9ED4CF560EDC6B59 /* Build configuration list for PBXNativeTarget "GamepadKit" */;
-			buildPhases = (
-				C1981D751BE1788EBB602D2784302C0B /* Headers */,
-				E0EA1490BEC395E97563B789E2EBB8CC /* Sources */,
-				BEC6B12604CF89D6C5B08A3CF7675502 /* Frameworks */,
-				E5ED104B88A0B35D21443E7E3BF274C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GamepadKit;
-			productName = GamepadKit;
-			productReference = 950F3310280203AEBD1B85C14A20DAD7 /* GamepadKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		54A790FA85C1E417E71F7F1A449D4F61 /* Pods-GamepadKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCE43AC1A9016CCD141791AD0360BCFF /* Build configuration list for PBXNativeTarget "Pods-GamepadKit_Example" */;
@@ -301,6 +280,24 @@
 			name = "Pods-GamepadKit_Example";
 			productName = "Pods-GamepadKit_Example";
 			productReference = 5774A2A57536311F2A9361DF67BE6E12 /* Pods_GamepadKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D210580DFB59EA86D1B3376D3AACC8F /* GamepadKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6080B091EC9880E8733B284735094A /* Build configuration list for PBXNativeTarget "GamepadKit" */;
+			buildPhases = (
+				BBE2348B3A4838012C0B859BF4B265ED /* Headers */,
+				663D82D7292835E5FA6F072DF53CD816 /* Sources */,
+				9F9474FCE74CA4F9045F370736A1A23C /* Frameworks */,
+				8E08FC0064C55E4343239B7365D6C36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamepadKit;
+			productName = GamepadKit;
+			productReference = 950F3310280203AEBD1B85C14A20DAD7 /* GamepadKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9188D7645219A15A9EB61BA83E1B34B /* Pods-GamepadKit_Tests */ = {
@@ -343,7 +340,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				076CFB063DACA921164842F0992013CF /* GamepadKit */,
+				9D210580DFB59EA86D1B3376D3AACC8F /* GamepadKit */,
 				54A790FA85C1E417E71F7F1A449D4F61 /* Pods-GamepadKit_Example */,
 				C9188D7645219A15A9EB61BA83E1B34B /* Pods-GamepadKit_Tests */,
 			);
@@ -358,14 +355,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5C3611DF8F70B0099BF63EB478F1E5B /* Resources */ = {
+		8E08FC0064C55E4343239B7365D6C36E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5ED104B88A0B35D21443E7E3BF274C3 /* Resources */ = {
+		C5C3611DF8F70B0099BF63EB478F1E5B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,23 +380,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		663D82D7292835E5FA6F072DF53CD816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC853986274B2631028DAA888E50989 /* GamepadKit-dummy.m in Sources */,
+				B7AC685CA3F88E4E8970791FE8B69A65 /* GamepadView.swift in Sources */,
+				1384643BF8F7FDFD6B0DCBA799AFE4EC /* NormalGamepad.swift in Sources */,
+				DCB0DE761813CFF02765A19718D09128 /* TwoDirectionGamepad.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74260F477A9DBDE9A6D1DBE26271DDDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D9BAC7C0D308EA2E719097FBDBC5EADD /* Pods-GamepadKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0EA1490BEC395E97563B789E2EBB8CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EDB0BF6DD712DD12F2EEEB22B708BA2 /* GamepadKit-dummy.m in Sources */,
-				5B3C1E7EF93F642CF44826BFAA9B2A33 /* GamepadView.swift in Sources */,
-				9F8F2DBFF96CF720D745451B1C055774 /* NormalGamepad.swift in Sources */,
-				C6C77D925EC2470A104D95C84F0689DC /* ReplaceMe.swift in Sources */,
-				0058E79DAD9D703B34FFDA05E877363E /* TwoDirectionGamepad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,12 +411,44 @@
 		CE9BA930D9BBC102F32548225620F555 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GamepadKit;
-			target = 076CFB063DACA921164842F0992013CF /* GamepadKit */;
+			target = 9D210580DFB59EA86D1B3376D3AACC8F /* GamepadKit */;
 			targetProxy = 2C81F5D3CD0AFFABB9D403F2AC3803D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		461DDC8E73B90E520BFCEF51D4385B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF2F7232D54D94DCE0CB89662674F6E /* GamepadKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GamepadKit/GamepadKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GamepadKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GamepadKit/GamepadKit.modulemap";
+				PRODUCT_MODULE_NAME = GamepadKit;
+				PRODUCT_NAME = GamepadKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -542,7 +570,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -575,38 +604,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D2BC59528503092403C9930D75D0366 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A4676AD8539DB6D12BE89C0397939EE /* GamepadKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GamepadKit/GamepadKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GamepadKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GamepadKit/GamepadKit.modulemap";
-				PRODUCT_MODULE_NAME = GamepadKit;
-				PRODUCT_NAME = GamepadKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -714,9 +711,9 @@
 			};
 			name = Debug;
 		};
-		CB95D82AE6F586483E1C65A998924D57 /* Debug */ = {
+		F9AE95A2ACFAC18BEDAB7AED97E5DEC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A4676AD8539DB6D12BE89C0397939EE /* GamepadKit.xcconfig */;
+			baseConfigurationReference = 9CF2F7232D54D94DCE0CB89662674F6E /* GamepadKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -757,11 +754,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3290BE0BC15875DD9ED4CF560EDC6B59 /* Build configuration list for PBXNativeTarget "GamepadKit" */ = {
+		3B6080B091EC9880E8733B284735094A /* Build configuration list for PBXNativeTarget "GamepadKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB95D82AE6F586483E1C65A998924D57 /* Debug */,
-				7D2BC59528503092403C9930D75D0366 /* Release */,
+				F9AE95A2ACFAC18BEDAB7AED97E5DEC7 /* Debug */,
+				461DDC8E73B90E520BFCEF51D4385B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

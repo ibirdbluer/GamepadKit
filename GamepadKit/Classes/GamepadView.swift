@@ -17,11 +17,11 @@ public enum GamepadActionType {
 }
 
 open class GamepadView: UIView {
-
-//    public lazy var imageView: UIImageView = {
-//        return UIImageView()
-//    }()
-//
+    
+    //    public lazy var imageView: UIImageView = {
+    //        return UIImageView()
+    //    }()
+    //
     
     open var actionHandler: ((GamepadActionType)->Void)?
     
@@ -38,7 +38,27 @@ open class GamepadView: UIView {
                     v.imageView.image = UIImage(named: self.bgImageName!)
                 }
                 if let v = self.gamepadV as? TwoDirectionGamepad {
-                    v.upImageView.image = UIImage(named: self.bgImageName!)
+                    v.bgImageview.image = UIImage(named: self.bgImageName!)
+                }
+            }
+        }
+    }
+    
+    public var upImageNames: [String]? {
+        didSet {
+            DispatchQueue.main.async {
+                if let v = self.gamepadV as? TwoDirectionGamepad {
+                    v.upImages = self.upImageNames
+                }
+            }
+        }
+    }
+    
+    public var downImageNames: [String]? {
+        didSet {
+            DispatchQueue.main.async {
+                if let v = self.gamepadV as? TwoDirectionGamepad {
+                    v.downImages = self.downImageNames
                 }
             }
         }
@@ -55,10 +75,10 @@ open class GamepadView: UIView {
     }
     public var gamepadWidth: CGFloat = 115
     public var holdpadWidth: CGFloat = 40
-
+    
     private var maxLength: CGFloat = 0
-
-
+    
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -95,15 +115,18 @@ open class GamepadView: UIView {
     
     override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
+            print("test 5")
             let location = touch.location(in: self)
             gamepadCenter = location
             
             if directions == 4 {
                 gamepadV = NormalGamepad()
                 guard gamepadV != nil else { return }
-                
+                if let v = self.gamepadV as? NormalGamepad {
+                    v.imageView.image = UIImage(named: self.bgImageName!)
+                }
                 gamepadV!.translatesAutoresizingMaskIntoConstraints = false
-//                gamepadV!.backgroundColor = UIColor.lightGray
+                //                gamepadV!.backgroundColor = UIColor.lightGray
                 addSubview(gamepadV!)
                 
                 if #available(iOS 9.0, *) {
@@ -114,8 +137,8 @@ open class GamepadView: UIView {
                 } else {
                     // Fallback on earlier versions
                 }
-
-
+                
+                
                 
                 holdImageView.image = UIImage(named: "按钮中间部分")
                 addSubview(holdImageView)
@@ -126,8 +149,14 @@ open class GamepadView: UIView {
                 gamepadV = TwoDirectionGamepad()
                 guard gamepadV != nil else { return }
                 
+                if let v = self.gamepadV as? TwoDirectionGamepad {
+                    v.downImages = self.downImageNames
+                    v.upImages = self.upImageNames
+                    v.bgImageview.image = UIImage(named: self.bgImageName!)
+                }
+                
                 gamepadV!.translatesAutoresizingMaskIntoConstraints = false
-//                gamepadV!.backgroundColor = UIColor.lightGray
+                //                gamepadV!.backgroundColor = UIColor.lightGray
                 addSubview(gamepadV!)
                 
                 if #available(iOS 9.0, *) {
@@ -138,13 +167,13 @@ open class GamepadView: UIView {
                 } else {
                     // Fallback on earlier versions
                 }
-
                 
-
+                
+                
             }
             
             layoutIfNeeded()
-
+            
         }
     }
     
@@ -186,11 +215,11 @@ open class GamepadView: UIView {
     
     override open func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("touchesCancelled")
-//        guard imageView.superview != nil else {
-//            print("touchesCancelled nil")
-//            return }
-//        imageView.removeFromSuperview()
-//        holdImageView.removeFromSuperview()
+        //        guard imageView.superview != nil else {
+        //            print("touchesCancelled nil")
+        //            return }
+        //        imageView.removeFromSuperview()
+        //        holdImageView.removeFromSuperview()
     }
     
     private func moveRockerTo(_ location: CGPoint) {
@@ -227,17 +256,17 @@ open class GamepadView: UIView {
         if x == 0 && y == 0 {
             actionHandler?(.none)
         }
-
+        
     }
     
     /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+     // Only override draw() if you perform custom drawing.
+     // An empty implementation adversely affects performance during animation.
+     override func draw(_ rect: CGRect) {
+     // Drawing code
+     }
+     */
+    
 }
 
 extension CGPoint {

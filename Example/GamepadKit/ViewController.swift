@@ -13,10 +13,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.lightGray
+        
         let gamepad1 = GamepadView(directions: 2)
         //        gamepad1.backgroundColor = UIColor.lightGray
         gamepad1.frame = CGRect(x: 0, y: 0, width: 200, height: view.bounds.height)
         gamepad1.bgImageName = "摇杆背景"
+        gamepad1.upImageNames = ["未选中-上", "选中-上"]
+        gamepad1.downImageNames = ["未选中-下", "选中-下"]
         view.addSubview(gamepad1)
         
         let gamepad2 = GamepadView(directions: 4)

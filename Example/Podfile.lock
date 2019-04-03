@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GamepadKit: 0e9e3de4e92e13edbf4723a311bd4ca06bbdf32f
+  GamepadKit: 62c3c1ab2bce28412ef31e94d06aca96a98a6aca
 
 PODFILE CHECKSUM: 2f3f17823300b8adb50d0bce7d3694136512ebcd
 
